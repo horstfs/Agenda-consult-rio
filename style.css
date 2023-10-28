@@ -1,0 +1,126 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para os formulários */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para a tabela do calendário na página "agenda.php" */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Estilo para as células do calendário */
+td.empty {
+    background-color: #B2B2B2;
+    color: #fff;
+}
+
+td.booked {
+    background-color: #FF5733;
+    color: #fff;
+}
+
+td.available {
+    background-color: #00D31A;
+    color: #fff;
+}
+/* Estilo para a tabela do calendário na página "agenda.php" */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Estilo para as células do calendário */
+td.empty {
+    background-color: #B2B2B2;
+    color: #fff;
+}
+
+td.booked {
+    background-color: #FF5733; /* Cor vermelha para dias agendados */
+    color: #fff;
+}
+
+td.available {
+    background-color: #00D31A;
+    color: #fff;
+}
+/* Estilos para o menu de navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
